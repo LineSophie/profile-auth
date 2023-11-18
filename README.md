@@ -4,7 +4,9 @@ This React application serves as a user profile management system. Users can log
 ## 📸 Screenshots
 
 [![Login Page](./src/assets/preview-images/login-page.png)](./src/assets/preview-images/login-page.png)
+--
 [![Profile Page](./src/assets/preview-images/profile-page.png)](./src/assets/preview-images/profile-page.png)
+--
 [![Settings Page](./src/assets/preview-images/edit-profile.png)](./src/assets/preview-images/edit-profile.png)
 
 
