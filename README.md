@@ -27,6 +27,7 @@ To run this project locally, follow these steps:
 - Icons from [Font Awesome](https://fontawesome.com/)
 - Pre-styled alerts boxes from [Sweetalert](https://sweetalert.js.org/)
 - Illustrations from [Undraw](https://undraw.co/illustrations)
+- Images from [Unsplash](https://unsplash.com)
 
 
 ## 🌈 Features
