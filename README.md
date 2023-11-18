@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# 🌟 ProfileAuth 🚀
+This React application serves as a user profile management system. Users can log in, update their profile information, and customize their settings within the application.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📸 Screenshots
 
-## Available Scripts
+[![Login Page](./src/assets/preview-images/login-page.png)](./src/assets/preview-images/login-page.png)
+[![Profile Page](./src/assets/preview-images/profile-page.png)](./src/assets/preview-images/profile-page.png)
+[![Settings Page](./src/assets/preview-images/edit-profile.png)](./src/assets/preview-images/edit-profile.png)
 
-In the project directory, you can run:
 
-### `npm start`
+## 🚀 Getting Started
+To run this project locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Configure Firebase in firebase_setup/firebase.js 
+4. Run the app with `npm start`.
+5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Technologies/Tools 
 
-### `npm test`
+- React: JavaScript library for building the user interface.
+- Firebase: Services for Authentication, Storage, and Database functionalities.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌅 Design Elements
 
-### `npm run build`
+- Icons from [Font Awesome](https://fontawesome.com/)
+- Pre-styled alerts boxes from [Sweetalert](https://sweetalert.js.org/)
+- Illustrations from [Undraw](https://undraw.co/illustrations)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🌈 Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **User Authentication:** Securely log in, request a new password, and create a new profile.
+- **Profile Updates/Customization:** Update and manage your user information and settings (e.g. contact information, social handles, skills, etc.)
+- **Profile Images:** Upload and manage profile images to personalize profile.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧑‍💻 Code Overview
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project structure is organized as follows:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `src/components`: Contains individual components for different sections of the app.
+- `src/assets`: Stores the default images used in the application.
+- `src/firebase_setup`: Firebase configuration. 
+- `src/handles`: Includes various utility functions for handling authentication, data retrieval, and more.
+- `src/App.js`: Main entry point for the app.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 📃 To Do's
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [ ] **Post Functionality:** Create, comment, delete, and like posts.
+- [ ] **Social Network Functionality:** Search, add, follow, and view other users.
+- [ ] **Data Management:** Allow users to delete their entire profile.
+- [ ] **Component Management:** Break down profile settings into smaller components.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 💫 Other
+This is a hobby project, crafted for learning and experimentation purposes. Happy exploring! 💥

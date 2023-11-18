@@ -1,0 +1,8 @@
+/* == CONTAINER STYLES == */
+.loginPageContainer {
+    padding-top: 10em;
+    background-image: url("../../assets/app-images/john-fowler-RsRTIofe0HE-unsplash.jpg");
+    height: 760px;
+    background-size:cover;  
+    background-position: center center; 
+}

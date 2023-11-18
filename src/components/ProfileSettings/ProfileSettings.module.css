@@ -1,0 +1,284 @@
+/* ==  CONTAINER STYLE ==  */
+.profileSettingsContainer {
+  height: auto;
+  min-height: 50em;
+  padding: 1em;
+  text-align: left;
+  background-size: cover;
+  background-position: bottom;
+  background-color: white;
+  background-image: url("../../assets/app-images/john-fowler-RsRTIofe0HE-unsplash.jpg");
+}
+
+/* == COLUMN STYLES == */
+.profileSettingsColumn {
+  display: flex;
+}
+
+/* == SECTION STYLES == */
+
+/* Edit Images */
+.editImageSection {
+  display: inline-block;
+  justify-content: center;
+  min-width: 16em;
+  max-width: 18em;
+  width: auto;
+  height: 24em;
+  padding: 1em;
+  margin-right: 1em;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.editSettingsSection {
+  display: inline-block;
+  min-width: 40em;
+  width: 100%;
+  min-height: 40em;
+  height: auto;
+  padding: 1em;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+/*.editSettingsSection*/
+.editProfileHeader {
+  margin-bottom: 1em;
+  border-bottom: 1px solid #c1bfbf;
+}
+
+/* == IMAGE STYLES == */
+
+.editImageSection .imageDiv {
+  justify-content: center;
+}
+
+.imageDiv {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.profileImg {
+  width: 10em;
+  height: 10em;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+/* == SUB-SECTIONS == */
+
+/* Edit Profile Sub Section */
+.profileSubSection {
+  display: flex;
+  flex-direction: column;
+  padding: 0.4em;
+  padding-top: 0;
+  padding-bottom: 0.6em;
+  margin-bottom: 0.6em;
+  border-bottom: 0.6px solid lightgray;
+
+}
+
+/* == TYPOGRAPHY == */
+.profileSubSection h3 {
+  margin-top: 0.4em;
+  margin-bottom: 0.3em;
+}
+
+.profileSubSection p {
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  color: rgb(155, 155, 155);
+}
+
+/* == INPUT/UTILITY STYLES == */
+.profileSubSection label {
+  color: #424141;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+
+.profileSubSection input,
+.profileSubSection textarea {
+  width: 93%;
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  background-color: transparent;
+  color: rgb(140, 137, 137);
+  outline: none;
+}
+
+.tagInputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding-top: 0.5em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  margin-left: 0;
+}
+
+/* == BUTTON STYLES == */
+.imageUploadBtn {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tabBtn {
+  width: 100%;
+  padding: 1em;
+  margin-left: 0;
+  text-align: left;
+  font-size: 1em;
+  background-color: white;
+  border: none;
+}
+
+.tabBtn:hover {
+  background-color: rgb(214, 190, 226);
+  border-right: 4px solid rgb(198, 146, 224);
+}
+
+.saveChangesBtn {
+  padding: 1em;
+  color: white;
+  background-color: #C28F8B;
+  border: none;
+  border-radius: 10px;
+}
+
+.saveChangesBtn:hover {
+  background-color: #c89f9c;
+}
+
+.customFileBtn,
+.deleteImgBtn {
+  width: 8em;
+  margin-left: 1em;
+  padding: 0.8em;
+  border-radius: 10px;
+  font-size: 0.8em;
+}
+
+.customFileBtn {
+  width: 8em;
+  color: white;
+  background-color: #C28F8B;
+  border: none;
+}
+
+.customFileBtn:hover {
+  background-color: #c89f9c;
+}
+
+.deleteImgBtn {
+  color: white;
+  background-color: #aea8a7;
+  border: none;
+}
+
+.deleteImgBtn:hover {
+  background-color: #b6b4b3;
+}
+
+.settingsBtn {
+  padding: 0.4em;
+  padding-left: 0;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  color: #aea8a7;
+  font-size: 1em;
+  background-color: transparent;
+  border: none;
+}
+
+.settingsBtn:hover {
+  color: black;
+}
+
+.deleteSkillBtn {
+  margin-left: 0.5em;
+  cursor: pointer;
+  color: #908c8b;
+  font-size: 0.8em;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+}
+
+.deleteSkillBtn:hover { 
+  font-weight: bold;
+}
+
+/* == ACTIVE TAB STYLES == */
+.activeTab {
+  color: black;
+  font-weight: bold;
+  border-bottom: 3px solid #c89f9c;
+}
+
+/* == ELEMENT STYLES == */
+.infoText {
+  margin: 1em;
+  padding: 0.4em;
+  color: #908c8b;
+  font-size: 0.8em;
+  background-color: #f4eae9;
+  border: 1px solid #c89f9c;
+  border-radius: 10px;
+}
+
+.fullNameDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.fullNameElement {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* == INPUT STYLES == */
+.fullNameElement input {
+  width: 86%;
+}
+
+.fullNameElement label {
+  margin-bottom: 0.4em;
+}
+
+/* == TAG STYLES == */
+.skillTag {
+  display: flex;
+  align-items: center;
+  padding: 0.25em 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+  color: #908c8b;
+  background-color: white;
+  border: 1px solid #908c8b;
+  border-radius: 5px;
+}

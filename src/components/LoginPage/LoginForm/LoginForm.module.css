@@ -1,0 +1,107 @@
+/* == CONTAINER STYLES == */
+.loginFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+    margin: 0 auto;
+    padding: 2em;
+    border-radius: 20px;
+    border: 1.6px solid white;
+    background-color: #FFFFFF20;
+    color: white;
+    text-align: center;
+    backdrop-filter: blur(40px);
+}
+
+/* == INPUT STYLES == */
+.loginFormContainer input,
+.signInBtn {
+    box-sizing: border-box;
+}
+
+.loginFormContainer input {
+    width: 100%;
+    margin: 0.4em;
+    padding: 1em;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+.loginFormContainer input::placeholder {
+    color: white;
+}
+
+
+/* == TYPOGRAPHY == */
+.loginFormContainer h1 {
+    margin-bottom: 0.4em;
+}
+
+/* == BUTTON STYLES == */
+.signInBtn {
+    width: 100%;
+    padding: 1em;
+    margin: 0.4em;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: white;
+    font-weight: bold;
+}
+
+.signInBtn:hover {
+    background-color: #C28F8B;
+    color: white;
+}
+
+.otherActions {
+    display: flex;
+    width: 24em;
+    margin: 0;
+    font-size: 0.8em;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4em;
+}
+
+.registerUserBtn {
+    margin-top: 0.8em;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: none;
+    font-size: 0.8em;
+}
+
+.registerUserBtn:hover {
+    color: #C28F8B;
+}
+
+/* == POSITIONING == */
+.itemFloatRight {
+    float: right !important;
+    margin-left: 1em;
+    padding: 0;
+    margin: 0;
+    margin-right: 0;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-style: italic;
+}
+
+.itemFloatRight:hover {
+    color: #C28F8B;
+}
+
+.itemFloatLeft {
+    float: left;
+    margin-right: 1em;
+    margin-left: 0;
+    width: 100%;
+    text-align: left;
+    color: white;
+}
